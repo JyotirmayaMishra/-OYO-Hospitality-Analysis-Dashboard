@@ -134,9 +134,41 @@ __________________________________________________________
 
 - This analysis helps identify cities with higher cancellation risk and better retention performance.
 
+## Stayed Percentage
+_______________________________________
+
+
+![stayed_percentage](stayed_percentage.png)
+![stayed_percentage(1)](stayed_percentage(1).png)
+
+- SQL query calculates Stayed Booking Percentage for each city using conditional aggregation.
+
+- The formula used is (Stayed Bookings / Total Bookings), rounded to two decimal places for accuracy.
+
+- Booking status is filtered using CASE WHEN status = 'Stayed' to count successful stays.
+
+- Data is grouped by city after joining the required tables.
+
+- Pune shows the highest stayed percentage (72%), indicating strong booking completion.
+
+- Jaipur, Mumbai, and Kolkata maintain stable stayed rates between 64%–67%.
+
+- Hyderabad shows a moderate stayed percentage, reflecting balanced behavior.
+
+- Noida records the lowest stayed percentage (49%), suggesting higher cancellations or no-shows.
+
+- The bar chart visually compares booking success rates across cities.
+
+- This analysis helps evaluate city-level customer retention and operational performance.
+
 
   
 
 
 
   
+
+
+
+
+
