@@ -108,6 +108,33 @@ ____________________________________
 
 - This analysis helps identify cities requiring stricter booking policies or improved confirmation processes.
 
+## Stayed Booking Or Cancelled Booking
+__________________________________________________________
+
+![stayed_booking_or_cancelled_booking](stayed_booking_or_cancelled_booking.png)
+![stayed_booking_or_cancelled_booking(1)](stayed_booking_or_cancelled_booking(1).png)
+
+- SQL query uses conditional aggregation (SUM + CASE) to calculate stayed bookings and cancelled bookings for each city.
+
+- Booking status is categorized into “Stayed” and “Cancelled” to analyze customer behavior.
+
+- Data is grouped by city after joining the oyo_sales and oyo_city tables.
+
+- The result table clearly shows successful stays vs cancellations at a city level.
+
+- Mumbai and Noida record the highest number of stayed bookings, indicating strong booking conversion.
+
+- Noida also shows a relatively high number of cancellations, highlighting a potential operational issue.
+
+- Pune and Jaipur maintain a better balance with fewer cancellations compared to stays.
+
+- Kolkata has the lowest booking volume with minimal cancellations.
+
+- The bar chart visually compares stayed vs cancelled bookings, enabling quick performance evaluation across cities.
+
+- This analysis helps identify cities with higher cancellation risk and better retention performance.
+
+
   
 
 
