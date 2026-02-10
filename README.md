@@ -134,7 +134,7 @@ __________________________________________________________
 
 - This analysis helps identify cities with higher cancellation risk and better retention performance.
 
-## Stayed Percentage
+## Stayed Percentage %
 _______________________________________
 
 
@@ -160,6 +160,20 @@ _______________________________________
 - The bar chart visually compares booking success rates across cities.
 
 - This analysis helps evaluate city-level customer retention and operational performance.
+
+## Key Learning
+- Learned to use SQL joins and conditional aggregation to derive city-level booking insights.
+
+- Analyzed the difference between high booking volume and high revenue cities.
+
+- Calculated cancellation rates and stayed percentages to evaluate booking quality.
+
+- Identified cities with higher revenue leakage due to cancellations.
+
+- Gained experience in converting raw hospitality data into business-driven KPIs.
+
+## Author
+Jyotirmaya Mishra - Data Analyst
 
 
   
