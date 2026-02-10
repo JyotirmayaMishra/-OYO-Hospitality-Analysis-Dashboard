@@ -62,6 +62,13 @@ ________
   ----
 
   ## Average Booking Amount By City
+  _________________
+
+  
+![avg_booking_amount_by_city.png](avg_booking_amount_by_city.png.png)
+![avg_booking_amount_by_city(1).png](avg_booking_amount_by_city(1).png)
+
+  
 
 
 
