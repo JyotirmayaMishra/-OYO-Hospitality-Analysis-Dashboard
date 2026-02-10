@@ -65,8 +65,48 @@ ________
   _________________
 
   
-![avg_booking_amount_by_city.png](avg_booking_amount_by_city.png.png)
+![avg_booking_amount_by_city.png](avg_booking_amount_by_city.png)
 ![avg_booking_amount_by_city(1).png](avg_booking_amount_by_city(1).png)
+
+- SQL queries are used to analyze OYO hotel booking data by joining oyo_sales and oyo_city tables.
+
+- The first analysis calculates total bookings by city, identifying high-demand locations.
+
+- Gurgaon records the highest number of bookings, followed by Delhi and Bangalore.
+
+- Results are visualized using a horizontal bar chart for easy comparison of city-wise booking volume.
+
+- The second analysis computes the average booking amount per city using aggregation functions.
+
+- Mumbai shows the highest average booking value, indicating higher revenue per booking.
+
+- The average price comparison helps distinguish high-volume cities vs high-value cities.
+
+- These insights support city-level demand analysis and pricing strategy decisions.
+
+-----------------------------------------------------------------
+
+## Cancellation Rate %
+____________________________________
+
+![cancellation_rate](cancellation_rate.png)
+![cancellation_rate(1)](cancellation_rate(1).png)
+
+- SQL query calculates city-wise cancellation rate (%) using conditional aggregation on booking status.
+
+- The calculation uses COUNT(CASE WHEN status = 'cancelled') / total bookings × 100 to derive accurate rates.
+
+- Data is aggregated by joining oyo_sales and oyo_city tables on hotel_id.
+
+- Results are sorted in descending order of cancellation rate to highlight risk-prone cities.
+
+- Delhi and Gurgaon show relatively higher cancellation rates compared to other major cities.
+
+- The pie chart visually represents the proportional contribution of each city to overall cancellations.
+
+- Noida and Mumbai account for a significant share of cancellations, while Pune has the lowest rate.
+
+- This analysis helps identify cities requiring stricter booking policies or improved confirmation processes.
 
   
 
